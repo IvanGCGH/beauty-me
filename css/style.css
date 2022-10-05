@@ -181,7 +181,7 @@ ul a img{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all .25s ease;
+    transition: all .3s ease;
     backface-visibility: hidden;
     float: left;
     margin: 10px;
@@ -213,13 +213,13 @@ ul a img{
     position: absolute;
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.658) 100%);
     z-index: 20;
-    transition: all .25s ease;
+    transition: all .3s ease;
 }
 
 .card img{
     height: 100%;
     z-index: 10;
-    transition: all .25s ease;
+    transition: all .3s ease;
     opacity: 0.8;
 }
 
@@ -246,7 +246,7 @@ ul a img{
     font-size: .8rem;
     opacity: 0;
     margin-bottom: -170px;
-    transition: all .25s ease;
+    transition: all .3s ease;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -262,7 +262,7 @@ ul a img{
     margin-top: 10px;
     margin-left: auto;
     cursor: pointer;
-    transition: all .25s ease;
+    transition: all .3s ease;
     font-family: poppins;
     font-size: .75rem;
     outline: none;
@@ -276,7 +276,7 @@ ul a img{
 .card:hover .con-text{
     display: flex;
     flex-direction: column;
-    transition: ease-in-out .1s;
+    transition: ease-in-out .3s;
     margin-bottom: 30px;
 }
 
