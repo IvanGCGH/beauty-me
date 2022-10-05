@@ -109,6 +109,24 @@ ul a img{
     color: var(--color-2);
 }
 
+.inf-terciaria{
+    height: 450px;
+    /* background-color: springgreen; */
+    background-color: var(--color-9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+}
+
+.inf-terciaria img{
+    width: 700px;
+    height: 70%;
+}
+
+
+/* ------------------- CARD ------------------- */
+
 .cards-conteiner{
     background-color: var(--color-1);
     width: 95%;
@@ -152,34 +170,6 @@ ul a img{
     grid-area: f;    
 }
 
-/*
-.card{
-    background-color: #3f352d;
-    width: 250px;
-    height: 300px;
-    margin: 0 10px;
-}
-*/
-
-.inf-terciaria{
-    height: 450px;
-    /* background-color: springgreen; */
-    background-color: var(--color-9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(201, 201, 201);
-}
-
-.inf-terciaria img{
-    width: 700px;
-    height: 70%;
-}
-
-
-/* ------------------- CARD ------------------- */
-
-
 .card{
     width: 280px;
     height: 380px;
@@ -214,15 +204,6 @@ ul a img{
     transform: scale(1.25);
 }
 
-/*
-
-.card:hover .ul {
-    transform: translate(0);
-    opacity: 1;
-}
-
-*/
-
 .card:after{
     width: 100%;
     content: '';
@@ -230,7 +211,7 @@ ul a img{
     bottom: 0px;
     height: 150px;
     position: absolute;
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.658) 100%);
     z-index: 20;
     transition: all .25s ease;
 }
@@ -291,63 +272,6 @@ ul a img{
     background: #fff;
     color: #000;
 }
-
-
-
-
-/*
-
-.ul{
-    position: absolute;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 40;
-    border-radius: 14px;
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    top: 0px;
-    opacity: 0;
-    transform: translate(100%);
-    transition: all .25 ease;
-}
-
-.ul li {
-    background: #fff;
-    list-style: none;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: .7;
-    transition: all .25s ease;
-    backface-visibility: hidden;
-}
-
-.ul li:last-child{
-    border-radius: 0px 0px 12px 12px;
-}
-
-.ul li:first-child{
-    border-radius: 12px 12px 0px 0px;
-}
-
-.ul li:hover{
-    opacity: 1;
-    transform: translate(-7px, -4px);
-    border-radius: 6px;
-}
-
-.ul li i{
-    font-size: 1.4rem;
-    color: #000;
-}
-
-*/
 
 .card:hover .con-text{
     display: flex;
